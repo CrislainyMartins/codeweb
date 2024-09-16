@@ -1,0 +1,102 @@
+/*Configurações padrões*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Optima, sans-serif;
+    background: #ffffff;
+}
+
+/* SIDENAV */
+.sidenav {
+grid-area: sidenav;background: #1e1e24;
+height: 100vh;
+width: 6em;
+position: fixed;
+transition: width 200ms ease;
+z-index:1;
+}
+
+.sidenav ul {
+height: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.sidenav li {
+width: 100%;
+text-align: center;
+list-style: none;
+}
+
+.sidenav li:last-child {
+margin-top: auto;
+}
+
+.sidenav a {
+display: flex;
+align-items: center;
+height: 5rem;
+color: #fff;
+filter: grayscale(100%) opacity(0.7);
+transition: filter 100ms ease;
+transition: background 200ms ease;
+text-decoration: none;
+
+}
+
+.sidenav a:hover {
+filter: grayscale(0%) opacity(1);
+background: #19191E;
+}
+
+.sidenav li:first-child a {
+filter: grayscale(0%) opacity(1);
+}
+
+.sidenav li:first-child a:hover {
+background: #1e1e24;
+}
+
+.sidenav span {
+display: none;
+margin-left: 1rem;
+font-size: 1.225em;
+}
+
+.sidenav i {
+min-width: 2rem;
+margin: 0 1.5rem;
+font-size: 1.5em;
+}
+
+.side_logo {
+font-weight: bold;
+text-transform: uppercase;
+margin-bottom: 1rem;
+font-size: 1.5rem;
+letter-spacing: 0.3ch;
+font-family: Optima, sans-serif;
+
+
+}
+
+.sidenav:hover {
+width: 16rem;
+}
+
+.sidenav:hover span {
+display: block;
+}
+
+
+/*menu*/
+
+header{
+    height: 200px;
+    background-image: linear-gradient(180 deg,  #176fff, black) ;
+}
