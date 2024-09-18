@@ -7,7 +7,8 @@
 
 body {
     font-family: Optima, sans-serif;
-    background: #ffffff;
+    background:gray;
+
 }
 
 /* SIDENAV */
@@ -95,8 +96,24 @@ display: block;
 
 
 /*menu*/
+header {
+    grid-area: header;
+    background: linear-gradient(180deg, #0e4781,#0000);
+    padding: 30px 60px;;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
 
-header{
-    height: 200px;
-    background-image: linear-gradient(180 deg,  #176fff, black) ;
+.menu{
+    display: flex;
+    margin-left: 90%;
+    justify-content: space-between;
+    list-style: none;
+    color: aliceblue;
+    border: 2px solid black;
+}
+
+.aba ul li {
+    border: 2px solid black;
 }
