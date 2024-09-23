@@ -100,20 +100,72 @@ header {
     grid-area: header;
     background: linear-gradient(180deg, #0e4781,#0000);
     padding: 30px 60px;;
-    display: grid;
+    
     grid-template-columns: 1fr auto;
     align-items: center;
 }
 
-.menu{
-    display: flex;
-    margin-left: 90%;
-    justify-content: space-between;
-    list-style: none;
-    color: aliceblue;
-    border: 2px solid black;
+
+.nav{
+    margin-left:84% ;
+    
 }
 
-.aba ul li {
-    border: 2px solid black;
+.nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.nav a {
+    display: block;
+    padding: 10px;
+    color: rgba(255,255,255,.8);
+    font-size: 1.125em;
+    border-radius: 10px;
+    transition: all .5s;
+    text-decoration: none;
+}
+
+.nav li:last-child a {
+    background: rgba(255,255,255);
+    color: #000;
+}
+
+.nav li:last-child a:hover {
+    background: rgba(255,255,255, .8);
+    color: #000;
+}
+
+.nav a:hover {
+    background: rgba(255,255,255);
+    color: #000;
+}
+
+.nav i {
+    display: block;
+    padding: 10px;
+    font-size: 1.125em;
+    color: rgba(255,255,255,.8);
+    margin: 0 15px;
+}
+
+.nav li + li {
+    margin-left: 30px;
+}
+
+.header a h1 {
+    color: #fff;
+    font-size: 2.75em;
+}
+
+
+/*Barra de pesquisa*/
+input{
+    padding: 8px;
+    margin-left: 130px ;
+    border-radius: 20px;
+    background: linear-gradient(130deg, #0e4781,#0000);
+    border-color: #0e4781;
+
 }
