@@ -159,13 +159,37 @@ header {
     font-size: 2.75em;
 }
 
+/*logo no header*/
+.logo {
+    max-width: 150px;
+    text-decoration: none;
+   
+}
+
+.logo h1 {
+    letter-spacing: 3px;
+    margin-left: 50px;
+    color: #ff ;
+   
+
+}
 
 /*Barra de pesquisa*/
 input{
     padding: 8px;
     margin-left: 130px ;
     border-radius: 20px;
-    background: linear-gradient(130deg, #0e4781,#0000);
     border-color: #0e4781;
+
+
+}
+
+.buscar{
+    padding: 8px;
+    background: #0e4781;
+    border-radius: 20px;
+    color: #fff;
+    
+
 
 }
