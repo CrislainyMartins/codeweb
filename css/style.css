@@ -7,7 +7,7 @@
 
 body {
     font-family: Optima, sans-serif;
-    background:gray;
+    background:black;
 
 }
 
@@ -159,26 +159,40 @@ header {
     font-size: 2.75em;
 }
 
+<<<<<<< HEAD
 /*logo no header*/
 .logo {
     max-width: 150px;
     text-decoration: none;
    
+=======
+/*logo*/
+.logo {
+    max-width: 150px;
+
+>>>>>>> 948feb554d6353a7263fb0fd1c965969bbd31dca
 }
 
 .logo h1 {
     letter-spacing: 3px;
+<<<<<<< HEAD
     margin-left: 50px;
     color: #ff ;
    
 
 }
+=======
+}
+
+
+>>>>>>> 948feb554d6353a7263fb0fd1c965969bbd31dca
 
 /*Barra de pesquisa*/
 input{
     padding: 8px;
     margin-left: 130px ;
     border-radius: 20px;
+<<<<<<< HEAD
     border-color: #0e4781;
 
 
@@ -191,5 +205,17 @@ input{
     color: #fff;
     
 
+=======
+    background: white;
+    border-color: #0e4781;
+
+}
+
+.buscar{
+    border-radius: 20px;
+    padding: 8px;
+    background: #176fff;
+    color: aliceblue;
+>>>>>>> 948feb554d6353a7263fb0fd1c965969bbd31dca
 
 }
