@@ -240,15 +240,16 @@ input{
 
 /*video e texto 2*/
 .conteudo2{
+    background-image: linear-gradient(360deg, white,gray,black);
     display: flex;
-    margin-left: 300px;
     justify-content: space-evenly;
     margin-top: -20px;
+    height: 500px;
 }
 
 .video1{
     margin-top: 100px;
-    margin-left: -160px;
+    margin-left: 160px;
 }
 
 .texto2{
@@ -272,16 +273,23 @@ input{
     margin-top: 20px;
 }
 
+
+
 /*portfolio*/
+.conteudo3{
+    background-image: linear-gradient(360deg,black,gray,white);
+}
 .titulo-portfolio{
-    margin:50px ;
-    color: #fff;
+   
+
+    color: black;
     text-align: center;
-    margin-top: 100px;
+    
 }
 .portfolio{
+   
     display: flex;
-    margin-top: 40px;
+ 
   
 }
 
