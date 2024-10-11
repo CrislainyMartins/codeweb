@@ -240,11 +240,16 @@ input{
 
 /*video e texto 2*/
 .conteudo2{
-    background-image: linear-gradient(360deg, white,gray,black);
+    background-color: #44474b;
     display: flex;
     justify-content: space-evenly;
     margin-top: -20px;
     height: 500px;
+    width: 1300px;
+    border: 2px solid #176fff; /* Borda inicial */
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 20px 15px 20px rgba(23, 111, 255, 0.5); /* Sombra em volta da div */
 }
 
 .video1{
@@ -277,25 +282,27 @@ input{
 
 /*portfolio*/
 .conteudo3{
-    background-image: linear-gradient(360deg,black,gray,white);
+    margin-top: 100px;
+   
 }
 .titulo-portfolio{
    
 
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
     
 }
 .portfolio{
-   
+    margin-top: 100px;
     display: flex;
  
   
 }
 
 .imgportifolio{
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-left: 260px;
+    border-radius: 20px;
 }
 
 /*vantagens*/
